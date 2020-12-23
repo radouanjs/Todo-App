@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ToDo-List App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+  <div class="title flex j-c-center a-i-center">
+    <p>My ToDo</p>
+  </div>
+  <div class="app flex j-c-sb">
+    <div class="tasks">
+      <div class="tasks-container">
+        <div class="inputs flex j-c-center a-i-center">
+          <input type="text" name="" id="description" placeholder="Description">
+          <button id="add"><i class="fa fa-check-circle"></i></button>
+        </div>
+        <div class="tasks-list">
+      
+        </div>
+      </div>
+    </div>
+    <div class="statistics flex fd-c j-c-center">
+      <div id="total-tasks" class="flex j-c-sb a-i-center">
+        <p>Total Tasks</p>
+        <p id="total">0</p>
+      </div>
+      <div id="completed-tasks" class="flex j-c-sb a-i-center">
+        <p>Completed Tasks</p>
+        <p id="comp">0</p>
+      </div>
+      <div id="incompleted-tasks" class="flex j-c-sb a-i-center">
+        <p>Incompleted Tasks</p>
+        <p id="incomp">0</p>
+      </div>
+    </div>
+  </div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
